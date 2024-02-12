@@ -1,0 +1,71 @@
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block; font-family: 'Nanum Barun Gothic', 'Noto Sans KR', sans-serif; font-size: 16px; color:#666; line-height: 1.6;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0; width:100%;}
+img,fieldset{ border:0; }
+li img,dd img,dt img,label img{vertical-align:top;}
+li{ line-height:100%; list-style:none }
+table{ border-collapse:collapse; width:100%; }
+input,select,textarea,button{font-family: 'Noto Sans KR', 'Nanum Barun Gothic', sans-serif; font-size: 16px; color:#666; line-height: 1.6; }
+img,input,select{ vertical-align:middle; }
+address,caption,em{ font-weight:normal; font-style:normal; }
+hr{ display:none; }
+
+html{width:100%;}
+body{width:100%; font-size:16px; color:#666; line-height:1.6; font-family: 'Noto Sans KR', 'Nanum Barun Gothic', sans-serif; }
+
+a{ color:#333; text-decoration:none; text-decoration:none; font-family: 'Noto Sans KR', 'Nanum Barun Gothic', sans-serif; font-size:16px; line-height: 1.6; width:100%; height:100% }
+
+a:visited, a:hover, a:active, a:focus{  }
+
+caption,legend{ width:0; height:0; font-size:0; text-indent:-9999px;overflow:hidden; }
+#skipNav a{ display:block; position:absolute; left:0; top:-10000px;text-align: center; width:100%; height:30px; z-index: 500; line-height:30px; font-weight:bold; font-size:14px; }
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{background:#ccc; top:0}
+
+h2,h3,h4,h5,h6 {font-family: 'Noto Sans KR', 'Nanum Barun Gothic', sans-serif; font-size:16px; color:#333; line-height: 1.3; }
+
+.hide { width:0; height:0; margin:0; padding:0; position:absolute; left:0; top:0;font-size:0; text-indent:-9999px; overflow:hidden; visibility:hidden}
+.cf:after { content:""; display:block; clear:both; visibility:hidden; width:0; height:0; font-size:0; }
+
+::selection { color:#f9b548; }
+
+/* 페이지의 공통부분 */
+/* layout  - header , flooter  */
+#wrap { width: 100%; min-width: 1600px; }
+.inner { width: 1400px; margin: auto; position: relative; }
+
+#header { width: 100%; }
+#header .inner { height: 75px; }
+#header h1 { position: absolute; left: 0; top: 23px; }
+
+#header .top-menu {  }
+#header .top-menu ul { position: absolute; right: 70px; top: 25px; }
+#header .top-menu ul li { display: inline-block; vertical-align: top; margin-left: 40px; }
+#header .top-menu ul li:nth-child(2) { cursor: pointer; }
+#header .top-menu ul li a { }
+#header .top-menu ul li a img { }
+#header .top-menu ul li:nth-child(2) img { }
+
+#header .top-menu .all-menu { font-size: 0; line-height: 1; position: absolute; right: 0; top: 20px; cursor: pointer; }
+#header .top-menu .all-menu i { font-size: 31px; }
+
+
+#container { height: 100%; }
+#container::after { content:""; display: block; clear: both; }
+#content { }
+
+
+#footer { width: 100%; background: #222; }
+#footer .inner { padding: 50px 0; }
+
+#footer p { color:#fff; font-size: 14px; font-weight: 100; }
+#footer p span { font-weight: 400; font-family: 'Noto Sans KR'; }
+
+#footer p.sns { font-size: 0; position: absolute; right: 0; top: 50px; }
+#footer p.sns i { font-size: 30px; margin-left: 35px; cursor: pointer; }
+

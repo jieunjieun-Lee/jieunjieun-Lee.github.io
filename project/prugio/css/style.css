@@ -1,0 +1,271 @@
+#mainVisual { width: 100%; height: 850px; }
+#mainVisual .main-visual { width: 100%; height: 850px; position: relative; }
+#mainVisual .main-visual li { width: 100%; background-repeat: no-repeat; background-position: 0 0; background-size: cover; height: 850px; position: absolute; left: 0; top: 0; display: none; }
+#mainVisual .main-visual li:nth-child(1) { background-image: url(../images/main/main_visual_1.jpg); display: block; }
+#mainVisual .main-visual li:nth-child(2) { background-image: url(../images/main/main_visual_2.jpg); }
+#mainVisual .main-visual li:nth-child(3) { background-image: url(../images/main/main_visual_3.jpg); }
+
+#mainVisual .main-visual li .visual-txt { color:#fff; width: 685px; position: absolute; left: 50%; top: 385px; transform: translateX(-50%); text-align: center; }
+#mainVisual .main-visual li .visual-txt strong { display: block; font-size: 50px; line-height: 1.2; margin-bottom: 50px; }
+#mainVisual .main-visual li .visual-txt strong span { font-weight: 600; }
+#mainVisual .main-visual li .visual-txt em { font-size: 25px; }
+
+#mainVisual .btn-wrap { }
+#mainVisual .btn-wrap li.btn { cursor: pointer; position: absolute; top: 475px; }
+#mainVisual .btn-wrap li.prev { left: 206px; }
+#mainVisual .btn-wrap li.next { right: 206px; }
+#mainVisual .btn-wrap li.btn img { }
+
+
+
+.main .sell { width: 100%; }
+.main .sell .inner { }
+.main .sell h2 { }
+
+.main .sell .apt { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.main .sell .apt li { width: 357px; height: 500px; }
+.main .sell .apt li:nth-child(1) { margin-bottom: 75px; }
+.main .sell .apt li:nth-child(2) { margin-bottom: 75px; }
+.main .sell .apt li:nth-child(3) { margin-bottom: 75px; }
+.main .sell .apt li a { width: 357px; height: 500px; display: block; }
+.main .sell .apt li a .apt-img { width: 357px; height: 500px; position: relative; overflow: hidden; }
+.main .sell .apt li a .apt-img img { transition: 0.6s; }
+.main .sell .apt li:hover a .apt-img img { transform: scale(1.05); }
+
+.main .sell .apt li a .apt-img .apt-txt { position: absolute; left: 50px; top: 50px; color: #fff; width: 257px; }
+.main .sell .apt li a .apt-img .apt-txt em { font-size: 14px; width: 50px; height: 50px; border-radius: 50%; background: #01989a; display: block; text-align: center; line-height: 50px; margin-bottom: 50px; }
+.main .sell .apt li:nth-child(2) a .apt-img .apt-txt em { line-height: 1.3; box-sizing: border-box; padding-top: 6px; }
+.main .sell .apt li:nth-child(3) a .apt-img .apt-txt em { line-height: 1.3; box-sizing: border-box; padding-top: 6px; }
+
+.main .sell .apt li a .apt-img .apt-txt h3 { color:#fff; font-size: 30px; line-height: 1.4; margin-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.7); box-sizing: border-box; padding-bottom: 25px; }
+.main .sell .apt li a .apt-img .apt-txt p { font-size: 15px; font-weight: 200; margin-bottom: 50px; }
+.main .sell .apt li a .apt-img .apt-txt strong { font-size: 25px; }
+
+
+
+.main .life { width: 100%; background: #efefef; }
+.main .life .inner { display: flex; }
+.main .life iframe { width: 700px; height: 475px; }
+
+.main .life iframe + div { width: 700px; height: 475px; box-sizing: border-box; padding-left: 135px; padding-top: 50px; }
+.main .life iframe + div h2 { text-align: left; }
+.main .life iframe + div p { color:#666; margin-bottom: 25px; font-weight: 300; }
+.main .life iframe + div p:nth-of-type(2) { margin-bottom: 75px; }
+.main .life iframe + div p.more { }
+.main .life iframe + div p.more a { width: 210px; height: 50px; border: 2px solid #015152; color:#015152; border-radius: 25px; display: block; box-sizing: border-box; text-align: center; line-height: 46px; transition:0.5s; font-weight: 400; }
+.main .life iframe + div p.more a:hover { background: #015152; color:#fff; }
+
+
+
+.main .news { width: 100%; background: #efefef; }
+.main .news .inner { display: flex; justify-content: space-between; }
+
+.main .news .inner div { width: 600px; height: 700px; box-sizing: border-box; padding-top: 50px; }
+.main .news div h2 { text-align: left; }
+.main .news div p { margin-bottom: 10px; color:#666; font-weight: 300; }
+.main .news div p:nth-of-type(3) { margin-bottom: 50px; }
+.main .news div p:nth-of-type(6) { margin-bottom: 175px; }
+.main .news div p.more { }
+.main .news div p.more a { width: 210px; height: 50px; border: 2px solid #015152; color:#015152; border-radius: 25px; display: block; box-sizing: border-box; text-align: center; line-height: 46px; transition:0.5s; font-weight: 400; }
+.main .news div p.more a:hover { background: #015152; color:#fff; }
+
+.main .news ul { width: 565px; height: 700px; position: relative; }
+.main .news ul li { position: absolute; }
+.main .news ul li:first-child { background: #b1aaa0; width: 485px; height: 650px; right: 0; bottom: 0; }
+.main .news ul li:last-child { left: 40px; top: 0; }
+.main .news ul li img { }
+
+
+
+.main .customer { }
+.main .customer .inner { }
+.main .customer h2 { }
+.main .customer .service { display: flex; justify-content: space-between; }
+.main .customer .service li { width: 210px; height: 200px; }
+.main .customer .service li a { width: 210px; height: 200px; display: block; border: 1px solid #d9d9d9; text-align: center; box-sizing: border-box; padding-top: 150px; background-repeat: no-repeat; background-position: 50% 40px; }
+.main .customer .service li:nth-child(1) a { background-image: url(../images/main/sec4_icon_1.png); }
+.main .customer .service li:nth-child(2) a { background-image: url(../images/main/sec4_icon_2.png); }
+.main .customer .service li:nth-child(3) a { background-image: url(../images/main/sec4_icon_3.png); }
+.main .customer .service li:nth-child(4) a { background-image: url(../images/main/sec4_icon_4.png); }
+.main .customer .service li:nth-child(5) a { background-image: url(../images/main/sec4_icon_5.png); }
+.main .customer .service li a p { font-size: 18px; }
+
+
+
+#footer p.top { width: 70px; height: 70px; position: absolute; right: -165px; top: -35px; }
+#footer p.top a { width: 70px; height: 70px; background: #520201; border-radius: 100%; display: block; text-align: center; line-height: 70px; box-sizing: border-box; padding-top: 5px; }
+#footer p.top a i { color:#fff; font-size: 30px; font-weight: 100; }
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+.brand { }
+.brand .story { }
+.brand .story .inner { padding: 75px 0; }
+.brand .story h2 { font-size: 30px; letter-spacing: 0.6px; font-weight: 500; text-align: center; margin-bottom: 45px; }
+
+
+.brand .nobility { }
+.brand .nobility .inner { background-repeat: no-repeat; background-position: 0 175px; background-image: url(../images/sublayout/sub1_sec1_1.png); text-align: center; box-sizing: border-box; padding-top: 225px; }
+.brand .nobility strong { font-family: 'Lora', serif; display: block; font-size: 50px; letter-spacing: 0.4px; font-weight: 500; }
+.brand .nobility em { font-size: 35px; letter-spacing: 0.5px; font-weight: 500; }
+.brand .nobility p { font-size: 20px; letter-spacing: 0.8px; font-weight: 500; margin-top: 5px; }
+
+
+
+.brand .for-you { }
+.brand .for-you .inner { }
+.brand .for-you ul { }
+.brand .for-you ul li { display: flex; justify-content: space-between; margin-bottom: 50px; }
+.brand .for-you ul li:last-child { margin-bottom: 0; }
+.brand .for-you ul li img:first-of-type { }
+.brand .for-you ul li p.arrow { padding-top: 225px; }
+.brand .for-you ul li p.arrow img { }
+.brand .for-you .inner ul li div { padding-top: 130px; }
+.brand .for-you .inner ul li:last-child div { padding-top: 155px; }
+.brand .for-you .inner ul li div strong { font-size: 25px; margin-bottom: 35px; display: block; }
+.brand .for-you .inner ul li div p { color:#555; line-height: 1.6; }
+
+
+
+.brand .value { width:100%; }
+.brand .value .inner { }
+.brand .value h2 { }
+.brand .value ul { height: 250px; background: #015152; display: flex; justify-content: space-between; box-sizing: border-box; padding: 0 200px; }
+.brand .value ul li { width: 270px; height: 250px; box-sizing: border-box; text-align: center; background-repeat: no-repeat; background-position: 50% 50px; padding-top: 110px; }
+.brand .value ul li:nth-child(1) { background-image: url(../images/sublayout/sub1_sec3_icon_1.png); }
+.brand .value ul li:nth-child(2) { background-image: url(../images/sublayout/sub1_sec3_icon_2.png); }
+.brand .value ul li:nth-child(3) { background-image: url(../images/sublayout/sub1_sec3_icon_3.png); }
+.brand .value ul li h3 { font-size: 18px; font-weight: 500; line-height: 1.6; color:#fff; }
+.brand .value ul li p { line-height: 1.6; color:#fff; font-weight: 300; }
+
+
+
+.brand .living { }
+.brand .living .inner { box-sizing: border-box; padding-bottom: 150px; }
+.brand .living h2 { }
+.brand .living .inner div:first-of-type { margin-bottom: 50px; }
+.brand .living .inner div .one { width: 600px; height: 400px; position: relative; float: left; }
+.brand .living .inner div .one p { font-size: 18px; display: inline-block; padding-top: 30px; margin-bottom: 100px; }
+.brand .living .inner div .one p:last-of-type { margin-bottom: 0; }
+.brand .living .inner div .one em { font-size: 22px; color:#666; position: absolute; }
+.brand .living .inner div .one em:nth-of-type(1) { right: 120px; top: 25px; }
+.brand .living .inner div .one em:nth-of-type(2) { right: 120px; top: 182px; }
+.brand .living .inner div .one em:nth-of-type(3) { right: 120px; top: 339px; }
+
+.brand .living .inner div .one em::before { content:""; display: block; width: 10px; height: 10px; border-radius: 50%; background: rgba(82,2,1,0.3); position: absolute; right: -55px; top: 12px; }
+
+.brand .living .inner div .one em::after { content:""; display: block; width: 1px; height: 50px; background: #520201; position: absolute; right: -51px; top: 70px; }
+.brand .living .inner div .one em:last-of-type::after { display: none; }
+
+
+.brand .living .inner div .two { width: 400px; height: 400px; position: relative; box-sizing: border-box; padding-top: 25px; 
+float: right; }
+.brand .living .inner div .two h3 { font-size: 18px; line-height: 1.389em; margin-bottom: 28px; text-align: center; }
+.brand .living .inner div .two h3::before { content:""; display: block; width: 290px; height: 205px; border: 2px solid rgba(1,81,82,0.5); position: absolute; left: 0; top: 0; box-sizing: border-box; }
+.brand .living .inner div .two p { width: 330px; height: 200px; margin-left: 30px; }
+.brand .living .inner div .two p::before { content:""; display: block; width: 330px; height: 200px; background: rgba(1,81,82,0.2); position: absolute; left: 30px; top: 90px; }
+
+
+.brand .living .inner div .three { width: 360px; height: 330px; box-sizing: border-box; padding-top: 25px; position: relative;  float: left; }
+.brand .living .inner div .three h3 { font-size: 18px; line-height: 1.389em; text-align: center; margin-bottom: 28px; }
+.brand .living .inner div .three h3::before { content:""; display: block; width: 280px; height: 218px; border: 2px solid rgba(1,81,82,0.5); box-sizing: border-box; position: absolute; right: 0; top: 0; }
+.brand .living .inner div .three p { width: 330px; height: 225px; background: rgba(1,81,82,0.2); box-sizing: border-box; padding-top: 13px; padding-left: 5px; }
+
+
+.brand .living .inner div .four { width: 685px; height: 375px; background-repeat: no-repeat; background-position: 50% 50%; background-image: url(../images/sublayout/sub1_sec4_1.png); position: relative; float: right; }
+.brand .living .inner div .four strong { font-size: 18px; line-height: 1.389em; display: block; width: 150px; height: 150px; border: 1px solid #015152; border-radius: 50%; background-color: #fff; text-align: center; box-sizing: border-box; position: absolute; }
+.brand .living .inner div .four strong:nth-child(1) { padding-top: 50px; left: 50%; transform: translateX(-50%); top: 0; }
+.brand .living .inner div .four strong:nth-child(2) { padding-top: 50px; left: 0; bottom: 0; }
+.brand .living .inner div .four strong:nth-child(3) { padding-top: 38px; right: 0; bottom: 0; }
+
+
+
+
+
+
+
+.new { }
+.new .inner { }
+
+.new .new-top { margin-bottom: 85px; }
+.new .new-top .inner { padding-top: 175px; }
+
+.new .new-top .new-menu { position: absolute; left: 0; }
+.new .new-top .new-menu li { width: 90px; height: 40px; color:#666; text-align: center; display: inline-block; cursor: pointer; font-weight: 500; }
+.new .new-top .new-menu li.on { color:#520201; border-bottom: 2px solid #520201; }
+
+.new .new-top .search-wrap { position: absolute; right: 0; }
+.new .new-top .search-wrap form { width: 210px; height: 40px; position: relative; border-bottom: 1px solid #999; }
+.new .new-top .search-wrap form label { }
+.new .new-top .search-wrap form input { width: 175px; height: 35px; background: transparent; outline: none; border:none; }
+.new .new-top .search-wrap form button { position: absolute; right: 0; top: 0; background: transparent; width: 25px; height: 40px; background-repeat: no-repeat; background-position: 0 50%; background-image: url(../images/sublayout/sub2_icon_1.png); cursor: pointer; outline: none; border: none; }
+
+
+
+.new .new-bottom { }
+.new .new-bottom .inner { padding-bottom: 150px; }
+
+.new .new-bottom .new-apt { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.new .new-bottom .new-apt li { width: 357px; height: 500px; margin-bottom: 75px; }
+.new .new-bottom .new-apt li:last-child { margin-bottom: 0; }
+.new .new-bottom .new-apt li a { width: 357px; height: 500px; display: block; }
+
+.new .new-bottom .new-apt li a .new-apt-img { width: 357px; height: 500px; position: relative; overflow: hidden; }
+.new .new-bottom .new-apt li a .new-apt-img img { transition: 0.6s; }
+.new .new-bottom .new-apt li:hover a .new-apt-img img { transform: scale(1.05); }
+
+.new .new-bottom .new-apt li a .new-apt-img .new-apt-txt { width: 257px; position: absolute; left: 50px; top: 50px; color:#fff; }
+.new .new-bottom .new-apt li a .new-apt-img .new-apt-txt em { font-size: 14px; width: 50px; height: 50px; border-radius: 50%; background: #01989a; display: block; text-align: center; line-height: 50px; margin-bottom: 50px; }
+.new .new-bottom .new-apt li:nth-child(2) a .new-apt-img .new-apt-txt em { line-height: 1.3; box-sizing: border-box; padding-top: 6px; }
+.new .new-bottom .new-apt li:nth-child(3) a .new-apt-img .new-apt-txt em { line-height: 1.3; box-sizing: border-box; padding-top: 6px; }
+
+.new .new-bottom .new-apt li a .new-apt-img .new-apt-txt h3 { color:#fff; font-size: 30px; line-height: 1.4; margin-bottom: 25px; border-bottom: 1px solid rgba(255,255,255,0.7); box-sizing: border-box; padding-bottom: 25px; }
+.new .new-bottom .new-apt li a .new-apt-img .new-apt-txt p { font-size: 15px; font-weight: 200; margin-bottom: 50px; }
+.new .new-bottom .new-apt li a .new-apt-img .new-apt-txt strong { font-size: 25px; }
+
+
+
+
+
+
+.faq { }
+.faq .inner { padding-top: 175px; padding-bottom: 150px; box-sizing: border-box; display: flex; justify-content: space-between; }
+
+.faq .faq-nav {  }
+.faq .faq-nav .faq-menu { width: 210px; height: 350px; }
+.faq .faq-nav .faq-menu li { margin-bottom: 20px; }
+.faq .faq-nav .faq-menu li:last-child { margin-bottom: 0; }
+.faq .faq-nav .faq-menu li a { color:#666; }
+.faq .faq-nav .faq-menu li.on a { color:#520201; font-weight: 500; }
+
+
+.faq .faq-content { width: 1075px; height: 630px; }
+.faq .faq-content h2 { font-size: 30px; font-weight: 500; margin-bottom: 35px;  }
+.faq .faq-content h2::after { content:""; display: block; width: 44px; height: 2px; background: #520201; margin-top: 20px; }
+
+.faq .faq-content div { display: flex; justify-content: space-between; margin-bottom: 150px; }
+.faq .faq-content div .faq-left {  }
+.faq .faq-content div .faq-left li { width: 470px; height: 50px; position: relative; border-bottom: 1px solid #666; margin-bottom: 25px; cursor: pointer; }
+.faq .faq-content div .faq-left li:last-child { margin-bottom: 0; }
+.faq .faq-content div .faq-left li p { position: absolute; left: 0; top: 50%; transform: translateY(-50%); color:#666 }
+.faq .faq-content div .faq-left li i { font-size: 20px; position: absolute; right: 0; top: 50%; transform: translateY(-50%); margin-top: 1px; }
+
+.faq .faq-content div .faq-right {  }
+.faq .faq-content div .faq-right li { width: 470px; height: 50px; position: relative; border-bottom: 1px solid #666; margin-bottom: 25px; cursor: pointer; }
+.faq .faq-content div .faq-right li:last-child { margin-bottom: 0; }
+.faq .faq-content div .faq-right li p { position: absolute; left: 0; top: 50%; transform: translateY(-50%); color:#666; }
+.faq .faq-content div .faq-right li i { font-size: 20px; position: absolute; right: 0; top: 50%; transform: translateY(-50%); margin-top: 1px; }
+
+
+.faq .faq-content .paging { text-align: center; }
+.faq .faq-content .paging a { color:#666; margin-right: 18px; font-weight: 300; }
+.faq .faq-content .paging a.on { width: 20px; height: 20px; border-radius: 50%; background: #520201; display: inline-block; color:#fff; line-height: 1.2; font-weight: 300; }
+.faq .faq-content .paging a:nth-child(8) { margin-right: 0; }
+.faq .faq-content .paging a:first-child { margin-right: 310px; }
+.faq .faq-content .paging a:last-child { margin-right: 0; margin-left: 310px; }
+.faq .faq-content .paging a:first-child i { margin-right: 15px; }
+.faq .faq-content .paging a:last-child i { margin-left: 15px; }

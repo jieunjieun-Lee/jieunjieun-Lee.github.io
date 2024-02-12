@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block; font-family:'Noto Sans KR',sans-serif; font-size:16px; color:#333; line-height: 1.6;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;width:100%;}
+img,fieldset{border:0;}
+li img,dd img,dt img,label img{vertical-align:top;}
+li{line-height:100%;list-style:none}
+table{border-collapse:collapse;width:100%;}
+input,select,textarea,button{ font-family:'Noto Sans KR',sans-serif; font-size:16px; color:#333; line-height: 1.6;}
+img,input,select{vertical-align:middle;}
+address,caption,em{font-weight:normal;font-style:normal;}
+hr{display:none;}
+
+html{width:100%;}
+body{width:100%; font-family:'Noto Sans KR', sans-serif; font-size:16px; color:#333; line-height:1.6; }
+a{ text-decoration:none; text-decoration:none; font-family:'Noto Sans KR',sans-serif; font-size:16px; color:#333; line-height: 1.6; width:100%; height:100%; }
+a:visited,a:hover,a:active,a:focus{}
+caption,legend{width:0;height:0;font-size:0;text-indent:-9999px;overflow:hidden;}
+
+#skipNav a{display:block;position:absolute;left:0;top:-10000px;text-align: center;width:100%;height:30px;z-index: 500;line-height:30px;font-weight:bold;font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{background:#ccc;top:0}
+h2,h3,h4,h5,h6{font-family:'Noto Sans KR',sans-serif; font-size:16px; color:#333; line-height: 1.6;}
+.hide {width:0; height:0; margin:0; padding:0; position:absolute; left:0; top:0;font-size:0; text-indent:-9999px; overflow:hidden; visibility:hidden}
+.cf:after {content:""; display:block; clear:both; visibility:hidden; width:0; height:0; font-size:0;}
+
+
+
+#wrap { width:100%; min-width:1600px; }
+.inner { width: 1400px; margin: 0 auto; position: relative; }
+
+#header { width: 100%; position: absolute; left: 0; top: 25px; z-index: 100; }
+#header .inner { height: 50px; }
+#header h1 { position: absolute; left: 0; top: 10px; }
+#header h1 a {}
+#header h1 a img {}
+
+#nav { }
+#nav .gnb { position: absolute; left: 405px; top: 50%; transform: translateY(-50%); }
+#nav .gnb li { float: left; margin-right: 55px; }
+#nav .gnb li:last-child { margin-right: 0; }
+#nav .gnb li a { font-size: 20px; color:#fff; }
+
+#header .top-menu { position: absolute; right: -3px; top: 50%; transform: translateY(-50%); }
+#header .top-menu .join { float: left; }
+#header .top-menu .join li { display: inline-block; vertical-align: middle; }
+#header .top-menu .join li:first-child {  margin-right: 10px; }
+#header .top-menu .join li a { color:#fff; font-weight: 200; }
+#header .top-menu .join li a img { }
+
+#header .top-menu .all-menu { float: left; margin-left: 50px; }
+#header .top-menu .all-menu i { font-size: 30px; cursor: pointer; color:#fff; font-weight: 100; }
+
+
+#container { height: 100%; }
+#container::after { content:""; display: block; clear: both; }
+#content { }
+
+
+#footer { width: 100%; background: #8e8e8e; }
+#footer .inner { box-sizing: border-box; padding-top: 75px; }
+
+#footer .ft-top { height: 200px; border-bottom: 1px solid rgba(255,255,255,0.5); }
+#footer .ft-top h2 { margin-bottom: 40px; }
+#footer .ft-top h2 a { }
+#footer .ft-top h2 a img { }
+#footer .ft-top p { font-size: 14px; color:#fff; font-weight: 200; }
+#footer .ft-top h2 + p:first-of-type { margin-bottom: 5px; }
+
+#footer .ft-top ul { position: absolute; right: 145px; top: 50px; }
+#footer .ft-top ul li { display: inline-block; margin-right: 20px; }
+#footer .ft-top ul li:last-child { margin-right: 0; }
+#footer .ft-top ul li a { font-size: 14px; color:#fff; font-weight: 200; }
+
+#footer .ft-top p.family-site { position: relative; position: absolute; right: 0; top: 50px; }
+#footer .ft-top p.family-site a { font-size: 14px; color:#fff; border: 1px solid #fff; width: 110px; height: 25px; display: block; text-align: center;  }
+#footer .ft-top p.family-site a:nth-child(1) {  }
+#footer .ft-top p.family-site a:nth-child(2) { position: absolute; left: 0; top: -26px; display: none; }
+#footer .ft-top p.family-site a:nth-child(3) { position: absolute; left: 0; top: -52px; display: none; }
+
+#footer .ft-top p.sns { font-size: 0; position: absolute; right: 0; top: 125px; }
+#footer .ft-top p.sns a { margin-right: 5px; }
+#footer .ft-top p.sns a:last-child { margin-right: 0; margin-left: 6px; }
+#footer .ft-top p.sns a i { font-size: 30px; color:#fff; }
+
+#footer .ft-bottom { padding-top: 35px; height: 125px; box-sizing: border-box; position: relative; }
+#footer .ft-bottom p { font-size: 14px; color:#fff; font-weight: 200; }
+#footer .ft-bottom p.ft-img { position: absolute; right: 0; top: 30px; }
+#footer .ft-bottom p.ft-img img { }
+
+
+
+.main { }
+.main .main-sec { }
+.main .main-sec .inner { padding: 100px 0; }
+.main .main-sec h2 { font-size: 40px; line-height: 1.2; text-align: center; font-weight: 500; margin-bottom: 75px; }
+
+
+
+#subVisual { background-repeat: no-repeat; background-position: 0 0; background-size: cover; width: 100%; height: 525px; box-sizing: border-box; padding-top: 250px; }
+.visual1 { background-image: url(../images/sublayout/sub1_visual.jpg); }
+.visual2 { background-image: url(../images/sublayout/sub2_visual.jpg); }
+.visual3 { background-image: url(../images/sublayout/sub3_visual.jpg); }
+
+#subVisual h2 { font-size: 50px; color:#fff; line-height: 1.2; font-weight: 500; text-align: center;  }
+
+
+#subMenu { width:100%;  }
+#subMenu .inner {  }
+#subMenu ul { position: absolute; left: 50%; top: -25px; display: flex; z-index: 50; justify-content: space-between; transform: translateX(-50%); }
+#subMenu ul li {  }
+#subMenu ul li a { font-size: 18px; width: 233px; height: 50px; display: block; border: 1px solid #dcdcdc; background: #fff; text-align: center; box-sizing: border-box; line-height: 50px; border-right: none; }
+#subMenu ul li:last-child a { border-right: 1px solid #dcdcdc; }
+#subMenu ul li.click a { background: #015152; color:#fff; border: 1px solid #015152; }
+
