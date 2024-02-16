@@ -38,34 +38,34 @@ h1{ position: absolute; left: 50px; top: 50px; }
 
 #about .introduce { display: flex; justify-content: space-between; }
 #about .introduce .left { width: 565px; box-sizing: border-box; padding-left: 85px; padding-bottom: 50px; }
-#about .introduce .left img {  }
+#about .introduce .left img { width: 430px; height: 574px; }
 
 #about .introduce .right { width: 805px; padding-top: 45px; box-sizing: border-box; }
-#about .introduce .right .edu {  }
+#about .introduce .right .edu { margin-top: 50px; }
 #about .introduce .right .edu ul {  }
-#about .introduce .right .edu ul li { margin-bottom: 25px; }
-#about .introduce .right .edu ul li:last-child { margin-bottom: 50px; }
-#about .introduce .right .edu ul li em { font-size: 20px; font-weight: 100; color:#666; margin-right: 40px; }
+#about .introduce .right .edu ul li { margin-bottom: 50px; }
+#about .introduce .right .edu ul li:last-child { margin-bottom: 100px; }
+#about .introduce .right .edu ul li em { font-size: 20px; font-weight: 100; color:#666; margin-right: 20px; }
 #about .introduce .right .edu ul li p { color:#333; font-size: 20px; display: inline-block; }
-#about .introduce .right .edu ul li span { color:#666; font-size: 15px; display: block; margin-left: 120px; margin-top: 5px; }
+#about .introduce .right .edu ul li span { color:#666; font-size: 15px; display: block; margin-left: 100px; margin-top: 10px; }
 
 #about .introduce .right .about-txt {  }
 #about .introduce .right .about-txt ul { display: flex; flex-wrap: wrap; }
 #about .introduce .right .about-txt ul li { width: 270px; }
 #about .introduce .right .about-txt ul li:nth-child(1) { margin-right: 130px; margin-bottom: 35px; }
-#about .introduce .right .about-txt ul li:nth-child(2) { margin-bottom: 50px; }
+#about .introduce .right .about-txt ul li:nth-child(2) { margin-bottom: 70px; }
 #about .introduce .right .about-txt ul li:nth-child(3) { margin-right: 130px; margin-bottom: 35px; }
-#about .introduce .right .about-txt ul li:nth-child(4) { margin-bottom: 50px; }
+#about .introduce .right .about-txt ul li:nth-child(4) { margin-bottom: 70px; }
 #about .introduce .right .about-txt ul li em { color:#666; font-size: 20px; margin-right: 35px; font-weight: 100; }
 #about .introduce .right .about-txt ul li p { color:#333; font-size: 20px; display: inline-block; }
 
-#about .introduce .right h3 { font-size: 25px; font-weight: 100; color:#666; margin-bottom: 35px; }
+/* #about .introduce .right h3 { font-size: 25px; font-weight: 100; color:#666; margin-bottom: 35px; }
 #about .introduce .right h3::after { content:""; display: block; width: 120px; height: 1px; background: #666; }
 #about .introduce .right .skill { display: flex; justify-content: space-between; }
 #about .introduce .right .skill li { width: 205px; }
-#about .introduce .right .skill li p { font-size: 17px; color:#333; font-family: 'Noto Sans KR'; margin-bottom: 18px; text-align: center; }
+#about .introduce .right .skill li p { font-size: 17px; color:#333; font-family: 'Noto Sans KR'; margin-bottom: 18px; text-align: center; } */
 
-#skill1 {
+/* #skill1 {
     margin: auto;
     width: 150px;
     height: 150px;
@@ -82,7 +82,7 @@ h1{ position: absolute; left: 50px; top: 50px; }
     width: 150px;
     height: 150px;
     position: relative;
-}
+} */
 
 
 
